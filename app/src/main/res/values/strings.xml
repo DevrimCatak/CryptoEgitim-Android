@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Egitim</string>
+
+    //MENU//
+    <string name="menu">Menü</string>
+    <string name="home_page">Ana Sayfa</string>
+    <string name="exchanges">Borsalar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="exit_confirmation">Çıkıs yapmak istediginize emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+    //AUTH//
+    <string name="auth_register">Üye Ol</string>
+    <string name="auth_name">Ad Soyad</string>
+    <string name="auth_surname">Soyad</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Şifre</string>
+    <string name="auth_password_repeat">Yeniden Şifre Giriniz</string>
+    <string name="auth_read_contract">Üyelik Sözleşmesini okudum ve onaylıyorum.</string>
+    <string name="auth_or">veya</string>
+    <string name="auth_have_account">Zaten bir hesabınız var mı?</string>
+    <string name="auth_dont_have_account">Hesabınız yok mu?</string>
+    <string name="auth_login">Giriş Yap</string>
+    <string name="auth_login_title">Giriş yap</string>
+    <string name="auth_name_null">Lütfen isminizi giriniz.</string>
+    <string name="auth_email_null">Lütfen email adresinizi giriniz.</string>
+    <string name="auth_password_null">Lütfen şifrenizi giriniz.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //COURSES//
+    <string name="courses_total_lesson">Toplam Ders</string>
+    <string name="courses_completed_lesson">Tamamlanan Ders</string>
+    <string name="courses_start">Kursa Başla</string>
+    <string name="courses_soon">Yakında...</string>
+
+    //LESSONS//
+    <string name="lesson">Ders</string>
+    <string name="lessons">Dersler</string>
+    <string name="lessons_start">Derse Başla</string>
+    <string name="lessons_start_repeat">Dersi Tekrar Al</string>
+    <string name="lessons_before_completed">Önceki Dersi Tamamla</string>
+    <string name="lessons_start_exam">Sınava Başla</string>
+
+    //QUESTIONS//
+    <string name="questions_next">Sonraki Soru</string>
+
+    //EXCHANGES//
+    <string name="exchanges_open_websites">Web sitesini Aç</string>
+
+</resources>

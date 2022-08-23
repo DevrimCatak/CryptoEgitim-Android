@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="onItemClickListener"
+            type="com.devrimcatak.egitim.ui.questions.ItemClickListener" />
+        <variable
+            name="answers"
+            type="com.devrimcatak.egitim.model.questions.Answer" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/llAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_white_10"
+        android:elevation="3dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="@{() -> onItemClickListener.onItemClick(answers)}"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{answers.answer}"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</layout>
